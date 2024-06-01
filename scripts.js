@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 8.2,
             genres: ['Action', 'Adventure'],
             videoUrl: "https://geo.dailymotion.com/player/xcj74.html?video=k6s6cvZ06oiSEoALACS" ,
-            imageUrl: 'https://images.app.goo.gl/25PfzrJmzPCLaAU88' // Add thumbnail URL
+            imageUrl: 'https://static.wikia.nocookie.net/battle-through-the-heavens/images/d/d6/IMG_0673.jpeg/revision/latest?cb=20230811211953' // Add thumbnail URL
         },
         // Add more anime data as needed
     ];
