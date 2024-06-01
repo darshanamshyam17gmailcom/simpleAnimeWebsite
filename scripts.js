@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             episodes: 1000,
             rating: 9.0,
             genres: ['Action', 'Adventure'],
-            videoUrl: 'https://geo.dailymotion.com/player.html?video=k5DTLzG3fqwVZgAL3Qw&',
+            videoUrl: 'https://geo.dailymotion.com/player/xjnde.html',
             imageUrl: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/naruto-one-piece.jpg' // Add thumbnail URL
         }
         // Add more anime data as needed
