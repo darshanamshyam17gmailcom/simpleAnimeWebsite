@@ -19,6 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
             genres: ['Action', 'Adventure'],
             videoUrl: 'https://geo.dailymotion.com/player/xjnde.html',
             imageUrl: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/naruto-one-piece.jpg' // Add thumbnail URL
+        },
+
+        {
+            title: 'Battle Through The Heavens',
+            description: 'Battle Through The Heavens Season 5 Episode 99 Eng Sub',
+            episodes: 99,
+            rating: 8.2,
+            genres: ['Action', 'Adventure'],
+            videoUrl: "https://geo.dailymotion.com/player/xcj74.html?video=k6s6cvZ06oiSEoALACS" ,
+            imageUrl: 'https://images.app.goo.gl/25PfzrJmzPCLaAU88' // Add thumbnail URL
         }
         // Add more anime data as needed
     ];
