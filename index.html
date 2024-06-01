@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature Gallery</title>
+    <title>Anime Streaming</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Nature Gallery</h1>
+        <div class="container">
+            <h1>Anime Streaming</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="genres.html">Genres</a></li>
+                    <li><a href="popular.html">Popular</a></li>
+                    <li><a href="latest.html">Latest Releases</a></li>
+                    <li><a href="anime-listing.html">My List</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for anime...">
+                <button onclick="searchAnime()">Search</button>
+            </div>
+        </div>
     </header>
-
     <main>
-        <section class="gallery">
-            <div class="gallery-item">
-                <img src="https://www.travelandleisure.com/thmb/cdS3Oejz0mhzneCg2Sv8ovCgeP0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/iceland-northern-lights_HERO_NORTHLIGHTS0722-985da83d99ac4c2f98f9f563b45c6ee5.jpg" alt="Mountain View">
-            </div>
-
-            <div class="gallery-item">
-                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYMR9HPu--9ZYiJZeiz18Dks9u0HzTUHoScYg19oEz2fGT3xqNz6cBqD4CzLby" alt="Sunset on the Beach">
-            </div>
-
-            <div class="gallery-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-l91528J4bNKUtN8OabMTKiMitY7KAjOi_3e3FE2uJLR0xSt8nRpU94PTwfR" alt="Forest in the Moonlight">
-            </div>
+        <section id="anime-list" class="container">
+            <!-- Anime thumbnails will be dynamically inserted here -->
+            <h2>Anime List</h2>
+            <div id="anime-list-container"></div>
         </section>
-    </main>
 
+    </main>
     <footer>
-        <p>&copy; 2022 Nature Gallery. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Anime Streaming. All rights reserved.</p>
+        </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
+
