@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             episodes: 220,
             rating: 8.2,
             genres: ['Action', 'Adventure'],
-            videoUrl: 'https://ok.ru/videoembed/8178251401870',
+            videoUrl: 'https://geo.dailymotion.com/player/xb9cu.html?video=k1bF2eNucIEQKWyMu7e',
             imageUrl: 'https://static1.srcdn.com/wordpress/wp-content/uploads/2021/10/one-piece-naruto-featured.jpg' // Add thumbnail URL
         },
         {
