@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genres: ['Action', 'Adventure'],
             videoUrl: "https://geo.dailymotion.com/player/xcj74.html?video=k6s6cvZ06oiSEoALACS" ,
             imageUrl: 'https://images.app.goo.gl/25PfzrJmzPCLaAU88' // Add thumbnail URL
-        }
+        },
         // Add more anime data as needed
     ];
 
