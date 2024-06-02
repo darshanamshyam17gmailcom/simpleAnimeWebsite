@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Naruto",
+        "description": "A story about a young ninja.",
+        "videoLink": "https://geo.dailymotion.com/player.html?video=k5DTLzG3fqwVZgAL3Qw&",
+        "thumbnail": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/naruto-one-piece.jpg",
+        "genre": "Action"
+    },
+    {
+        "title": "One Piece",
+        "description": "A story about a pirate's adventure.",
+        "videoLink": "https://ok.ru/videoembed/8178251401870",
+        "thumbnail": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/10/one-piece-naruto-featured.jpg",
+        "genre": "Adventure"
+    }
+]
